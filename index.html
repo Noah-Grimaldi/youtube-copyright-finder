@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/x-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKHSURBVDhPTVJBaJJhGP70/5fLFGSCHewwmZuHQBCzgYcOsmijJIYUHkwYYzkEy0HYIWo0XGTrIrRBKBjNdRiiBEaETWVlGJRhO2xjxuzgdslZ4k/m1K/nn1v0Hn7+93ue5/2e930/Qv+LtbU1h8OhUqmEQiHLshqNxu12FwqFQ/ggCP3ylZb3ms2mx+NhGAZUg8Fgt9ttNptWqyWEiEQin893SOcFlLbfpm+MWoCNjIxsbm52gE7kcjmj0QjowfVJmsvjhBfMz88PEubeVWur1Wq326lUamZmZnZ2NpvNAm00GjdN5/WEiUajvKBWq8nlcp1O18jludUMLkG9fwFjjfT7Wi7f29vb19cH5yQcDgOIxWJQuy+PniNMT0+Py+VC9xKJ5AJh7086AS0sLIC2srJCJiYmuru76/X69va2QCBQnZCWgs/AgJWtx36N8pRareY4bmdnB4Lp6WkyPDw8MDAAwvLyMo6sViut1WjkJY3FabPJK49CKpWOjY0JURWNgoqZ4ru/v09+/iJSCf5JvV6pVMrlMoaBDDQMnTidzq6uLrReKpWwLO2x4+uh552Sn70PTwoYFIalYrEIjdfrJZFIBH9LS0tgPLpiPU2EaMlisZjNZugxgye3PIDm5uZAy2QyuLauVCrRxu9Xb/5sfRsfH4dJYAiYxPpbHz/tvfugUCiweN481C/CYTNhbRcvQYx0Y2MjGAyGQiHMDWm1Wr125uyggE0mk0gJ5TgM5PbUFErq9fp0Oo0yABDoNR6P4wkCenrnLk2uHgiK3+kBw+/3i8ViYHA4NDRkMplgA6lMJltcXOQL/CjT1wkBLzqK3d3dQCCQSCQ6S+zv78dLQVfY/SGD0r+3rpRJDFdqbwAAAABJRU5ErkJggg=="/>
+    <title>CopyrightFinder</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body id="body1">
+    <header id="header2">
+      <h3 class="cfinder"><span id="span1">Copyright</span> <br>Finder</br></h3>
+      <div class="navbar">
+        <a class="active" href="#home">Home</a>
+        <a href="#How">How to use</a>
+        <a href="#about">About</a>
+        <form id="apiForm">
+          <label for="apiKey">YOUR API KEY:</label>
+          <input type="text" id="apiKey">
+        </form>
+      </div>
+      <h1 class="ctitle">Search for <span id="yt">Youtube</span> Copyright</h1>
+    </header>
+    <br>
+    <div id="div1">
+      <form class="form1">
+        <label for="stitle">Song title:</label>
+        <input type="text" id="stitle"><br><br>
+        <label for="sname">Song artist name:</label>
+        <input type="text" id="sname"><br><br>
+        <button id="submit1" type="button">Submit</button>
+      </form>
+    </div>
+    <div id="out">
+      <h2 id="output"></h2>
+    </div>
+    <iframe id="youtubePlace" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br><br>
+    <hr class="hr2">
+    <span id="spanIn"><div id="How"><h1>How to Use</h1></div></span>
+    <h3>
+      <ul>
+        <li>Create an API key <a href="https://developers.google.com/workspace/guides/create-credentials#api-key">here</a></li>
+        <li>Copy the API key and enter it into the designated location above</li>
+        <li>Proceed to put in your song title and artist name</li>
+      </ul>
+    </h3>
+    <br><br><br><br><br>
+    <hr class="hr2">
+    <span id="span3"><div id="about"><h1>About</h1></div></span>
+    <p><h3>This program is designed to quickly allow you to insert a song artist and name
+      and get back information displaying if the song is copyrighted regarding usage on 
+      Youtube
+    </h3></p>
+    <br><br><br><br>
+    <a href=#header2><p id="p3">Return to the top ^</p></a>
+    <div class="space"></div>
+    <footer id="footer1">
+      <p>Copyright &copy; 2023 Noah Grimaldi.</p>
+    </footer>
+  <script src="app.js"></script>
+  </body>
+</html>
